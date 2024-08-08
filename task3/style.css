@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+}
+
+#header {
+    text-align: center;
+    background-color: #395B64;
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #2367D0;
+    color: white;
+    padding: 5px 15px;
+}
+
+table tr td {
+    padding: 5px 10px;
+
+}
+
+table tr:nth-child(odd){
+    background-color: #98B6E8;
+}
+
+table tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+#aboutus {
+    display: inline-block;
+    width: 600px;
+}
+
+#titles {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#titles p {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+#customerslist {
+    width: 100%;
+    position: relative;
+}
+
+#customerslist::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #395B64;
+    right: -15px;
+    top: 0px;
+}
+
+#linksbar {
+    max-width: 271px;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+#content h2 {
+    margin-bottom: 60px;
+}
+
+#loginform button {
+    background-color: #2269C9;
+    padding: 4px 40px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#linksbar h2 {
+    margin-top: 20px;
+}
+
+#linksbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#linksbar ul li {
+    background-color: #395B64;
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+
+#linksbar ul li a{
+    color: white ;
+}
